@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACT Math Coaching Notes</title>
+    <link rel="stylesheet" href="css/scratch-styles.css">
+</head>
+<body>
+
+    <nav class="nav-bar">
+        <a href="index.html">&larr; Return to Professional Portfolio</a>
+        <a href="act-challenge.html">Try the ACT Math Challenge App</a>
+        <a href="#breakdown">Jump to Question Breakdown</a>
+    </nav>
+
+    <div class="page-wrap">
+
+        <div class="hero">
+            <div class="profile-block">
+                <img src="assets/img/profile.jpg" alt="Profile photo" class="profile-photo">
+                <div>
+                    <h1>Notes From an ACT Math Tutor</h1>
+                    <p>I scored a 36 on the ACT and have spent the years since tutoring students through the same test. This page is a scratch space for the patterns I actually use when a student is stuck &mdash; not a polished course, just the notes I'd hand a tutee.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-box" id="breakdown">
+            <h2>How I Break Down a Hard Question</h2>
+            <p>Most ACT Math questions that feel impossible are really two or three easier questions stacked together. Here's the order I walk through with a student, and the categories that order tends to cover:</p>
+            <ol class="breakdown-list">
+                <li>Identify what's actually being asked
+                    <ul>
+                        <li>Underline the final question, not the setup</li>
+                        <li>Note what units or form the answer needs to be in</li>
+                    </ul>
+                </li>
+                <li>Match it to a known category
+                    <ul>
+                        <li>Algebra &amp; functions</li>
+                        <li>Geometry &amp; trigonometry</li>
+                        <li>Probability &amp; statistics</li>
+                    </ul>
+                </li>
+                <li>Pick the fastest legal shortcut
+                    <ul>
+                        <li>Plug in answer choices when solving directly is slower</li>
+                        <li>Estimate first to eliminate obviously wrong choices</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+
+        <div class="section-box">
+            <h2>A Walkthrough Worth Watching</h2>
+            <div class="video-wrap">
+                <iframe src="https://www.youtube.com/embed/KHOvympczu0" title="ACT Math practice test walkthrough" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <p style="margin-top: 1rem; font-size: 0.85rem; color: #6b6b6b;">(This won't play locally before the site is hosted &mdash; that's expected.)</p>
+        </div>
+
+        <div class="section-box">
+            <h2>Two Questions Worth Trying Yourself</h2>
+            <p>Cover the answer, time yourself, then check your work against the strategy below.</p>
+            <ol class="breakdown-list">
+                <li><strong>Algebra.</strong> If 3(x &minus; 4) = 2x + 5, what is the value of x?
+                    <ul>
+                        <li>Distribute the left side first: 3x &minus; 12 = 2x + 5</li>
+                        <li>Move variables to one side: x = 17</li>
+                    </ul>
+                </li>
+                <li><strong>Geometry.</strong> A rectangle has a perimeter of 36 and a length twice its width. What is its area?
+                    <ul>
+                        <li>Let width = w, length = 2w. Perimeter: 2(w + 2w) = 36, so 3w = 18, w = 6</li>
+                        <li>Length = 12, so area = 6 &times; 12 = 72</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+
+        <div class="app-callout">
+            <strong>Think you can beat the clock?</strong>
+            <p style="margin: 0.5rem 0 0;">I built a 45-second timed challenge using the same kind of tricky problems I tutor through.</p>
+            <a href="act-challenge.html">Launch the ACT Math Challenge</a>
+        </div>
+
+        <div class="tableau-box">
+            <h2>A Quick Data Tangent</h2>
+            <p>Not directly about the ACT, but it's the kind of live, explorable dataset I find genuinely interesting &mdash; a public Tableau visualization, embedded and interactive below.</p>
+            <div class='tableauPlaceholder' id='viz1781741864618' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MapadeEmpresasnoBrasil_15877433181480&#47;EmpresasAbertas&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='MapadeEmpresasnoBrasil_15877433181480&#47;EmpresasAbertas' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MapadeEmpresasnoBrasil_15877433181480&#47;EmpresasAbertas&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>
+            <script type='text/javascript'>
+                var divElement = document.getElementById('viz1781741864618');
+                var vizElement = divElement.getElementsByTagName('object')[0];
+                if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='2450px';}
+                var scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+        </div>
+
+    </div>
+
+</body>
+</html>
